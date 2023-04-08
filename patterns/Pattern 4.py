@@ -1,6 +1,4 @@
-# let's try a little more complex pattern than compared to the last pattern, here we will try to print a reverse triangle pattern and this will require us to pass a 
-# parameter to the function which will be used to determine the number of rows in the pattern
-# for the following pattern we will pass 3 as the parameter
+# let's try a little more complex pattern than compared to the last pattern, here we will try to print a reverse triangle pattern
 # # ***
 # # **
 # # *
@@ -20,6 +18,9 @@ def main(n):
         print('');
         i = i+1;
 
+## call for the function created above
+if __name__ == '__main__':
+    main(3);
 ## call for the function created above
 if __name__ == '__main__':
     main(3);

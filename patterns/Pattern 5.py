@@ -1,15 +1,13 @@
-# there could be another variation of the pattern which is called the triangle pattern
-# # *
-# # **  
-# # ***
-
-# the follwoing pattern is created using nested for loop
+# in  this file we will see how to draw a pattern which is an intverted triangle pattern
+#   *
+#  **
+# ***
 def main(n):
     i = 0;
     j = 0;
     for i in range(n):
         for j in range(n):
-            if j <= i:
+            if j >= n-i-1:
                 print('*', end='');
             else:
                 print(' ', end='');
@@ -18,8 +16,8 @@ def main(n):
         print('');
         i = i+1;
 
-# let's try a little more complex pattern
-
 ## call for the function created above
 if __name__ == '__main__':
     main(3);
+
+

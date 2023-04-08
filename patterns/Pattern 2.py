@@ -4,11 +4,11 @@
 # #   *
 
 # the follwoing pattern is created using nested for loop
-def main():
+def main(n):
     i = 0;
     j = 0;
-    for i in range(3):
-        for j in range(3):
+    for i in range(n):
+        for j in range(n):
             if i == j:
                 print('*', end='');
             else:
@@ -22,4 +22,4 @@ def main():
 
 ## call for the function created above
 if __name__ == '__main__':
-    main();
+    main(3);
