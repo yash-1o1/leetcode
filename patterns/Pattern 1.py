@@ -1,5 +1,4 @@
-
-#this is a function for a basic patter 
+# the follwoing pattern is created using nested for loop 
 # ***
 # ***
 # ***
@@ -18,6 +17,3 @@ def main():
 ## call for the function created above
 if __name__ == '__main__':
     main();
-
-## print in python witgout new line
-
