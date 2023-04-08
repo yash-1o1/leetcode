@@ -26,12 +26,12 @@ if __name__ == '__main__':
 # write all the possible outcomes and then try to find the pattern between i, j and n
 
 # like this:
-# when i = 0, j = 0, n = 3, print ' ', j = 1
-# when i = 0, j = 1, n = 3, print ' ', j = 2
-# when i = 0, j = 2, n = 3, print *, j = 3
-# when i = 1, j = 0, n = 3, print ' ', j = 1
-# when i = 1, j = 1, n = 3, print *, j = 2
-# when i = 1, j = 2, n = 3, print *, j = 3
-# when i = 2, j = 0, n = 3, print *, j = 1     
-# when i = 2, j = 1, n = 3, print *, j = 2
-# when i = 2, j = 2, n = 3, print *, j = 3
+# when i = 0, j = 0, n = 3, print ' '
+# when i = 0, j = 1, n = 3, print ' '
+# when i = 0, j = 2, n = 3, print *
+# when i = 1, j = 0, n = 3, print ' '
+# when i = 1, j = 1, n = 3, print *
+# when i = 1, j = 2, n = 3, print *
+# when i = 2, j = 0, n = 3, print *   
+# when i = 2,, j = 1, n = 3, print *
+# when i = 2, j = 2, n = 3, print *
