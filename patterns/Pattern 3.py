@@ -18,8 +18,6 @@ def main(n):
         print('');
         i = i+1;
 
-# let's try a little more complex pattern
-
 ## call for the function created above
 if __name__ == '__main__':
     main(3);

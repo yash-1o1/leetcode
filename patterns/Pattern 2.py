@@ -1,7 +1,7 @@
 # let's try a little more complex pattern
-# # *
-# #  *
-# #   *
+# *
+#  *
+#   *
 
 # the follwoing pattern is created using nested for loop
 def main(n):
@@ -17,8 +17,6 @@ def main(n):
         #print a new line
         print('');
         i = i+1;
-
-# let's try a little more complex pattern
 
 ## call for the function created above
 if __name__ == '__main__':
