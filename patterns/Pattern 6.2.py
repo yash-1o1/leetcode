@@ -21,3 +21,13 @@ def main(n):
 ## call for the function created above
 if __name__ == '__main__':
     main(3);
+
+# how did we get this pattern?
+# we broke the pattern into two parts, the first part is the spaces and the second part is the stars
+# ___
+#|  //|
+#| // |
+#|//__|
+# these are the thwo parts of the pattern, the first traingle respresents the spaces and the second triangle represents the stars.
+# most of the questions can be broken down into trangles and then we can solve them using the same logic.
+# each loop within the outer loop represents a traingle shown above.
