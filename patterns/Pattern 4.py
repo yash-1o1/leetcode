@@ -3,7 +3,6 @@
 # # **
 # # *
 
-# the follwoing pattern is created using nested for loop.
 def main(n):
     i = 0;
     j = 0;
@@ -16,6 +15,7 @@ def main(n):
         #print a new line
         print('');
 
+# call for the function created above
 # call for the function created above
 if __name__ == '__main__':
     main(3);
