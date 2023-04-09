@@ -1,7 +1,8 @@
-# in  this file we will see how to draw a pattern which is an reversed intverted triangle pattern
+# in this file we will see how to draw a pattern which is an reversed intverted triangle pattern
 # ***
 # **
 # *
+
 def main(n):
     i = 0;
     j = 0;
@@ -16,7 +17,7 @@ def main(n):
         print('');
         i = i+1;
 
-## call for the function created above
+# call for the function created above
 if __name__ == '__main__':
     main(3);
 
