@@ -13,14 +13,9 @@ def main(n):
                 print('*', end='');
             else:
                 print(' ', end='');
-            j = j+1;
         #print a new line
         print('');
-        i = i+1;
 
-## call for the function created above
-if __name__ == '__main__':
-    main(3);
 ## call for the function created above
 if __name__ == '__main__':
     main(3);
