@@ -16,6 +16,5 @@ def main(n):
         print('');
 
 # call for the function created above
-# call for the function created above
 if __name__ == '__main__':
     main(3);

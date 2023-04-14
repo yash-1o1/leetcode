@@ -8,9 +8,9 @@
 def main(n: int) -> int:
     count = 0;
     while n != 0:
-        if n % 10 == 1:
+        if n&1:
             count = count + 1;
-        n = n // 10;
+        n = n >> 1;
     return count;
 
 # call for the function created above
