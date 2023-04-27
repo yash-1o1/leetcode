@@ -1,2 +1,2 @@
 ### Patterns completed
-### Started Bitwise Operations
+### Completed Bitwise Operations 
